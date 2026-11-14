@@ -1,0 +1,55 @@
+{
+ "id": "s15_capital",
+ "type": "capital",
+ "facts": "last",
+ "hook": "Most people pick the biggest city. But is it really the capital?",
+ "hookBig": "TRAP!",
+ "hookSmall": "NOT THE BIGGEST CITY",
+ "items": [
+  {
+   "iso2": "tr",
+   "options": [
+    "Istanbul",
+    "Ankara",
+    "Izmir",
+    "Antalya"
+   ]
+  },
+  {
+   "iso2": "in",
+   "options": [
+    "Mumbai",
+    "Kolkata",
+    "New Delhi",
+    "Bangalore"
+   ]
+  },
+  {
+   "iso2": "us",
+   "options": [
+    "New York",
+    "Washington D.C.",
+    "Los Angeles",
+    "Chicago"
+   ]
+  },
+  {
+   "iso2": "mm",
+   "options": [
+    "Yangon",
+    "Mandalay",
+    "Naypyidaw",
+    "Bago"
+   ]
+  },
+  {
+   "iso2": "ci",
+   "options": [
+    "Abidjan",
+    "Bouaké",
+    "Yamoussoukro",
+    "San-Pédro"
+   ]
+  }
+ ]
+}

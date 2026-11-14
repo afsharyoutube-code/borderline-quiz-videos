@@ -1,0 +1,25 @@
+{
+ "id": "s14_flag",
+ "type": "flag",
+ "facts": "last",
+ "hook": "These flags look almost the same. Can you still name all five?",
+ "hookBig": "TWINS?",
+ "hookSmall": "DON'T MIX THEM UP",
+ "items": [
+  {
+   "iso2": "ie"
+  },
+  {
+   "iso2": "ci"
+  },
+  {
+   "iso2": "nl"
+  },
+  {
+   "iso2": "lu"
+  },
+  {
+   "iso2": "ro"
+  }
+ ]
+}

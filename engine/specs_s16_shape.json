@@ -1,0 +1,25 @@
+{
+ "id": "s16_shape",
+ "type": "shape",
+ "facts": "last",
+ "hook": "These five countries have no coastline at all. Can you name them by their shape?",
+ "hookBig": "NO COAST",
+ "hookSmall": "5 LANDLOCKED COUNTRIES",
+ "items": [
+  {
+   "iso2": "bo"
+  },
+  {
+   "iso2": "py"
+  },
+  {
+   "iso2": "et"
+  },
+  {
+   "iso2": "la"
+  },
+  {
+   "iso2": "ml"
+  }
+ ]
+}

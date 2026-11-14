@@ -1,0 +1,51 @@
+{
+ "id": "s13_emoji",
+ "type": "emoji",
+ "facts": "last",
+ "hook": "Part two! Guess the country from three emojis. The last one fools almost everyone.",
+ "hookBig": "EMOJI QUIZ",
+ "hookSmall": "PART 2",
+ "items": [
+  {
+   "iso2": "fr",
+   "emojis": [
+    "🥐",
+    "🗼",
+    "🍷"
+   ]
+  },
+  {
+   "iso2": "eg",
+   "emojis": [
+    "🐪",
+    "🏜️",
+    "🔺"
+   ]
+  },
+  {
+   "iso2": "au",
+   "emojis": [
+    "🦘",
+    "🐨",
+    "🏄"
+   ]
+  },
+  {
+   "iso2": "in",
+   "emojis": [
+    "🐘",
+    "🍛",
+    "🏏"
+   ]
+  },
+  {
+   "iso2": "is",
+   "emojis": [
+    "🌋",
+    "🧊",
+    "🐴"
+   ]
+  }
+ ],
+ "outro": "How many did you get? Comment your score, and follow for part three!"
+}

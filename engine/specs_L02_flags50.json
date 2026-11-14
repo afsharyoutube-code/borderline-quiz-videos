@@ -1,0 +1,172 @@
+{
+ "id": "L02_flags50",
+ "type": "flag",
+ "format": "long",
+ "countdown": 5,
+ "hook": "Can you name all fifty flags? We start with the easy ones, and every level gets harder. Grab a pen, keep score, and let's see if you're a true flag master.",
+ "hookBig": "GUESS 50 FLAGS",
+ "hookSmall": "EASY → IMPOSSIBLE",
+ "outro": "That's all fifty flags! What was your score? Tell me in the comments, and subscribe for a new geography quiz every week.",
+ "levels": {
+  "size": 10,
+  "names": [
+   "EASY",
+   "MEDIUM",
+   "HARD",
+   "EXPERT",
+   "IMPOSSIBLE"
+  ]
+ },
+ "items": [
+  {
+   "iso2": "us"
+  },
+  {
+   "iso2": "gb"
+  },
+  {
+   "iso2": "fr"
+  },
+  {
+   "iso2": "de"
+  },
+  {
+   "iso2": "it"
+  },
+  {
+   "iso2": "jp"
+  },
+  {
+   "iso2": "br"
+  },
+  {
+   "iso2": "ca"
+  },
+  {
+   "iso2": "cn"
+  },
+  {
+   "iso2": "es"
+  },
+  {
+   "iso2": "mx"
+  },
+  {
+   "iso2": "ar"
+  },
+  {
+   "iso2": "in"
+  },
+  {
+   "iso2": "kr"
+  },
+  {
+   "iso2": "se"
+  },
+  {
+   "iso2": "no"
+  },
+  {
+   "iso2": "gr"
+  },
+  {
+   "iso2": "tr"
+  },
+  {
+   "iso2": "ie"
+  },
+  {
+   "iso2": "pt"
+  },
+  {
+   "iso2": "ng"
+  },
+  {
+   "iso2": "eg"
+  },
+  {
+   "iso2": "za"
+  },
+  {
+   "iso2": "ke"
+  },
+  {
+   "iso2": "gh"
+  },
+  {
+   "iso2": "co"
+  },
+  {
+   "iso2": "cl"
+  },
+  {
+   "iso2": "pe"
+  },
+  {
+   "iso2": "ph"
+  },
+  {
+   "iso2": "th"
+  },
+  {
+   "iso2": "np"
+  },
+  {
+   "iso2": "lk"
+  },
+  {
+   "iso2": "bd"
+  },
+  {
+   "iso2": "mn"
+  },
+  {
+   "iso2": "kz"
+  },
+  {
+   "iso2": "pk"
+  },
+  {
+   "iso2": "ma"
+  },
+  {
+   "iso2": "tn"
+  },
+  {
+   "iso2": "jm"
+  },
+  {
+   "iso2": "cu"
+  },
+  {
+   "iso2": "bt"
+  },
+  {
+   "iso2": "sc"
+  },
+  {
+   "iso2": "km"
+  },
+  {
+   "iso2": "ki"
+  },
+  {
+   "iso2": "to"
+  },
+  {
+   "iso2": "fm"
+  },
+  {
+   "iso2": "mh"
+  },
+  {
+   "iso2": "nr"
+  },
+  {
+   "iso2": "bw"
+  },
+  {
+   "iso2": "ls"
+  }
+ ]
+}
