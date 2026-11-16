@@ -1,0 +1,23 @@
+{
+ "id": "s21_size_c",
+ "type": "size",
+ "facts": "last",
+ "hook": "Which one is bigger?",
+ "hookBig": "BIGGER?",
+ "hookSmall": "MAPS LIE",
+ "items": [
+  {
+   "a": "se",
+   "b": "iq"
+  },
+  {
+   "a": "jp",
+   "b": "zw"
+  },
+  {
+   "a": "mx",
+   "b": "id"
+  }
+ ],
+ "outro": "How many did you get? Comment your score!"
+}

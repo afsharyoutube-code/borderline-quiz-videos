@@ -1,0 +1,30 @@
+{
+ "id": "s21_size",
+ "type": "size",
+ "facts": "last",
+ "hook": "Sweden or Iraq? Japan or Zimbabwe? Pick the bigger country before the reveal.",
+ "hookBig": "BIGGER?",
+ "hookSmall": "MAPS LIE",
+ "items": [
+  {
+   "a": "se",
+   "b": "iq"
+  },
+  {
+   "a": "jp",
+   "b": "zw"
+  },
+  {
+   "a": "mx",
+   "b": "id"
+  },
+  {
+   "a": "cl",
+   "b": "tr"
+  },
+  {
+   "a": "pt",
+   "b": "kr"
+  }
+ ]
+}

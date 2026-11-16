@@ -1,0 +1,30 @@
+{
+ "id": "s22_size",
+ "type": "size",
+ "facts": "last",
+ "hook": "Europe versus Asia and the Americas. Which country is bigger? Number five is closer than it looks.",
+ "hookBig": "SO CLOSE",
+ "hookSmall": "WHICH IS BIGGER?",
+ "items": [
+  {
+   "a": "no",
+   "b": "my"
+  },
+  {
+   "a": "fr",
+   "b": "th"
+  },
+  {
+   "a": "pl",
+   "b": "vn"
+  },
+  {
+   "a": "it",
+   "b": "ec"
+  },
+  {
+   "a": "gr",
+   "b": "np"
+  }
+ ]
+}

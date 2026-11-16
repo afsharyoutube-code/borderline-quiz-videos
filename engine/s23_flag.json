@@ -1,0 +1,25 @@
+{
+ "id": "s23_flag",
+ "type": "flag",
+ "facts": "last",
+ "hook": "Five flags from Southeast and East Asia. Name each one in three seconds.",
+ "hookBig": "ASIA",
+ "hookSmall": "NAME ALL 5 FLAGS",
+ "items": [
+  {
+   "iso2": "th"
+  },
+  {
+   "iso2": "vn"
+  },
+  {
+   "iso2": "my"
+  },
+  {
+   "iso2": "la"
+  },
+  {
+   "iso2": "mn"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "id": "s22_size_c",
+ "type": "size",
+ "facts": "last",
+ "hook": "Which country is bigger?",
+ "hookBig": "SO CLOSE",
+ "hookSmall": "WHICH IS BIGGER?",
+ "items": [
+  {
+   "a": "no",
+   "b": "my"
+  },
+  {
+   "a": "fr",
+   "b": "th"
+  },
+  {
+   "a": "pl",
+   "b": "vn"
+  }
+ ],
+ "outro": "How many did you get? Comment your score!"
+}

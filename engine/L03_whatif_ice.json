@@ -1,0 +1,105 @@
+{
+ "id": "L03_whatif_ice",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "thumb": {"type": "map", "box": [-30, 150, -10, 72], "sea": 65, "text": "GONE FOREVER?", "counter": false, "note": false},
+ "chapters": [
+  {"name": "Intro", "label": "What if all the ice melted?", "scenes": [
+   {"type": "map", "title": "WHAT IF ALL THE ICE MELTED?", "sea": [0, 65], "anim_s": 14, "tag": "Thought experiment · thousands of years, not decades",
+    "say": "Picture a world map, and now start raising the sea. One metre. Ten. Fifty. Coastlines crawl inland, and whole countries slip off the map."},
+   {"type": "map", "title": "WHICH COUNTRIES VANISH?", "sea": 65, "tag": "Thought experiment · thousands of years, not decades",
+    "say": "This would take thousands of years, not decades, but which countries would vanish, and which would survive? Let's melt the planet. Carefully."}
+  ]},
+  {"name": "How much ice is out there?", "scenes": [
+   {"type": "card", "title": "HOW MUCH ICE?", "big": "5,000,000+ CUBIC MILES", "size": 130, "small": "of ice on Earth (National Geographic)", "tag": "Source: National Geographic",
+    "say": "Before we drown anything, let's count the ice. According to National Geographic, there are more than five million cubic miles of ice on Earth. Almost all of it sits in two giant ice sheets."},
+   {"type": "map", "title": "GREENLAND", "box": [-75, -5, 57, 84], "sea": 0, "counter": false, "pins": [{"lon": -40, "lat": 72, "label": "Ice sheet ~80% of the island"}], "tag": "Sources: NSIDC · NASA", "note": false,
+    "say": "Greenland's ice sheet covers about 80 percent of the island. If it melted completely, it would raise global sea level by about 7.4 metres. That's roughly the height of a two-storey house."},
+   {"type": "card", "title": "ANTARCTICA", "big": "~58 METRES", "small": "of sea-level rise locked in Antarctica's ice", "tag": "Source: NASA",
+    "say": "Then there's Antarctica, the real heavyweight. Its ice could raise sea level by about 58 metres. Add the world's mountain glaciers, from the Alps to the Himalayas, and you get less than half a metre more."},
+   {"type": "bars", "title": "WHERE THE WATER IS LOCKED UP", "max": 70, "anim_s": 4, "tag": "Sources: NASA · USGS · AntarcticGlaciers.org",
+    "rows": [["Antarctica", 58, "~58 m"], ["Greenland", 7.4, "7.4 m"], ["Mountain glaciers", 0.5, "< 0.5 m"], ["ALL ICE", 70, "~65–70 m", [255, 210, 63]]],
+    "say": "So what's the total? Scientists' numbers vary a little. NASA says the two ice sheets together would add nearly 65 metres. The U.S. Geological Survey estimates about 70 metres if all glaciers and ice caps melted, and notes there's still some uncertainty about how much ice there really is."},
+   {"type": "card", "title": "THE TOTAL", "big": "~65–70 m", "small": "about as tall as a 20-storey building", "tag": "Sources: NASA · USGS",
+    "say": "So we'll call it roughly 65 to 70 metres. That's about as tall as a 20-storey building."}
+  ]},
+  {"name": "How long would it take?", "scenes": [
+   {"type": "card", "title": "HOW LONG?", "big": "NOT IN OUR LIFETIMES", "size": 130, "small": "Some scientists estimate 5,000+ years to melt it all", "tag": "Source: National Geographic",
+    "say": "Here's the first big reality check: this would not happen overnight, and not in our lifetimes. Some scientists estimate it would take more than 5,000 years to melt all of it."},
+   {"type": "timeline", "title": "THE IPCC'S LONG VIEW", "anim_s": 8, "tag": "Source: IPCC AR6 WGI, Summary for Policymakers",
+    "points": [["TODAY", "starting point"], ["2,000 YEARS · 1.5°C", "about 2–3 m"], ["2,000 YEARS · 5°C", "about 20 m\n(a third of a full melt)"], ["5,000+ YEARS", "all ice gone\n~65–70 m"]],
+    "say": "The IPCC, the UN's climate science panel, gives a sense of the pace. Even if warming is held to 1.5 degrees Celsius, the seas would keep rising for centuries, with about 2 to 3 metres expected over the next 2,000 years. With 5 degrees of warming, that grows to roughly 20 metres over the same period, still only about a third of a full melt."},
+   {"type": "card", "title": "SO, TO BE CLEAR", "big": "THOUGHT EXPERIMENT", "size": 140, "small": "Not a forecast for 2100", "tag": "",
+    "say": "So the map you're about to see is a thought experiment. It's not a forecast for 2100. Think of it as a worst case, given thousands of years, way of reading the world's geography."}
+  ]},
+  {"name": "Gone completely: the island nations", "scenes": [
+   {"type": "map", "title": "THE MALDIVES", "box": [55, 95, -12, 26], "sea": 65, "pins": [{"lon": 73.5, "lat": 3.2, "label": "Maldives · highest natural point ~2.4 m"}], "tag": "Source: Wikipedia (Maldives)",
+    "say": "Let's start with the countries that would disappear entirely. The Maldives is the world's lowest-lying country. Its average ground level is about one and a half metres, and its highest natural point is only about 2.4 metres above the sea, lower than a basketball hoop is from the floor."},
+   {"type": "card", "title": "THE MALDIVES", "big": "GONE", "size": 220, "small": "At +65 m, nothing is left above water", "tag": "",
+    "say": "At 65 metres of sea-level rise, there's simply nothing left above water. All of its coral islands go under."},
+   {"type": "map", "title": "TUVALU", "box": [150, 180, -25, 2], "sea": 65, "pins": [{"lon": 179.2, "lat": -8.5, "label": "Tuvalu · highest point ~4.5 m", "dx": -24}], "tag": "Source: JAXA EORC",
+    "say": "Thousands of kilometres away in the Pacific, Tuvalu is in the same position. Its highest point is only about four and a half metres above sea level. It too would vanish from the map."},
+   {"type": "card", "title": "COUNTRIES GONE", "big": "2", "size": 300, "small": "Entire nations with nowhere higher to go", "tag": "",
+    "say": "These are the clearest answers to our question: entire nations with nowhere higher to go."}
+  ]},
+  {"name": "Europe: goodbye lowlands", "scenes": [
+   {"type": "map", "title": "THE NETHERLANDS", "box": [1.5, 9.5, 50.2, 54.2], "sea": 0, "counter": false, "highlight": ["Netherlands"], "big": "26% BELOW SEA LEVEL · 59% FLOOD-PRONE", "tag": "Source: PBL Netherlands Environmental Assessment Agency",
+    "say": "Now to Europe, starting with a country that already lives with the sea at its door: the Netherlands. According to the Dutch government's environmental assessment agency, about a quarter of the country lies below sea level, and nearly 60 percent is prone to flooding."},
+   {"type": "map", "title": "THE NETHERLANDS AT +65 m", "box": [1.5, 9.5, 50.2, 54.2], "sea": [0, 65], "anim_s": 8, "highlight": ["Netherlands"], "pins": [{"lon": 4.9, "lat": 52.37, "label": "Amsterdam"}, {"lon": 4.48, "lat": 51.92, "label": "Rotterdam", "dx": -24}, {"lon": 6.02, "lat": 50.75, "label": "Vaalserberg ~322 m"}], "tag": "Sources: National Geographic · Wikipedia",
+    "say": "At 65 metres, Amsterdam, Rotterdam and The Hague are long gone. National Geographic's map shows the Netherlands disappearing. But the elevation data tells a slightly different story: in the far southern corner, the Vaalserberg hill rises about 322 metres."},
+   {"type": "map", "title": "ALMOST ALL OF IT", "box": [1.5, 9.5, 50.2, 54.2], "sea": 65, "highlight": ["Netherlands"], "pins": [{"lon": 6.02, "lat": 50.75, "label": "A small hilly corner survives"}], "tag": "Simplified model",
+    "say": "So almost all of the Netherlands would be lost, but a small hilly corner of the far south would still poke above the waves."},
+   {"type": "map", "title": "DENMARK", "box": [5, 16, 53.5, 58.2], "sea": 65, "highlight": ["Denmark"], "pins": [{"lon": 9.73, "lat": 55.99, "label": "Highest hill ~173 m"}], "tag": "Sources: Britannica · National Geographic",
+    "say": "Next door, Denmark. Mainland Denmark lies, on average, no more than about 30 metres above sea level. On this map, most of the country would be gone. Its highest hill, at about 173 metres, would become part of a scattering of islands."},
+   {"type": "map", "title": "VENICE AND LONDON", "box": [-11, 20, 40, 58], "sea": 65, "pins": [{"lon": 12.34, "lat": 45.44, "label": "Venice"}, {"lon": -0.13, "lat": 51.5, "label": "London"}], "tag": "Sources: Royal Museums Greenwich · National Geographic",
+    "say": "Head south to Venice. The lowest part of St Mark's Square is only about 55 centimetres above today's average sea level. On this map, the Adriatic reclaims the city completely. And on National Geographic's map, London is lost too."}
+  ]},
+  {"name": "Asia and Africa: deltas under water", "scenes": [
+   {"type": "map", "title": "BANGLADESH", "box": [84, 97, 19, 28.5], "sea": 0, "counter": false, "highlight": ["Bangladesh"], "big": "~80% LOW RIVER PLAIN", "tag": "Source: Library of Congress Country Studies",
+    "say": "Asia has some of the world's largest river deltas, and many of the world's people live on them. Take Bangladesh. Roughly 80 percent of its land is fertile, low-lying river plain, and most of it sits less than 10 metres above sea level."},
+   {"type": "map", "title": "BANGLADESH AT +65 m", "box": [84, 97, 19, 28.5], "sea": [0, 65], "anim_s": 8, "highlight": ["Bangladesh"], "pins": [{"lon": 90.4, "lat": 23.8, "label": "Dhaka", "dx": -24}, {"lon": 92.6, "lat": 22.0, "label": "Hills ~1,000 m"}], "tag": "Sources: National Geographic · Library of Congress",
+    "say": "National Geographic's map shows all of Bangladesh underwater. The elevation data suggests a small correction: a few peaks in the far south-east hills reach around 1,000 metres. So most of Bangladesh would vanish, but those hilltops would survive."},
+   {"type": "map", "title": "INDIA AND CHINA", "box": [62, 128, 4, 46], "sea": 65, "pins": [{"lon": 121.5, "lat": 31.2, "label": "~600 million people (NatGeo, 2013)", "dx": -24}], "tag": "Source: National Geographic",
+    "say": "Next door, on this map, much of coastal India would flood. And in China, National Geographic estimated that land home to about 600 million people when the map was made would be under water."},
+   {"type": "map", "title": "AFRICA", "box": [-20, 55, -36, 38], "sea": 65, "pins": [{"lon": 29.9, "lat": 31.2, "label": "Alexandria"}, {"lon": 31.24, "lat": 30.04, "label": "Cairo", "dy": 40}], "tag": "Source: National Geographic",
+    "say": "Africa, according to National Geographic, would lose less land than any other continent. But that doesn't mean it escapes. On this map, Egypt's great cities of Alexandria and Cairo are swamped by the Mediterranean."}
+  ]},
+  {"name": "The Americas and Australia", "scenes": [
+   {"type": "map", "title": "NORTH AMERICA", "box": [-128, -62, 22, 50], "sea": [0, 65], "anim_s": 8, "pins": [{"lon": -74.0, "lat": 40.7, "label": "New York"}, {"lon": -81.7, "lat": 27.8, "label": "Florida"}], "tag": "Source: National Geographic",
+    "say": "Across the Atlantic, North America's east coast takes a heavy hit. On National Geographic's map, the entire Atlantic seaboard disappears, along with the Gulf Coast and Florida."},
+   {"type": "map", "title": "FLORIDA", "box": [-90, -78, 24, 32], "sea": 65, "highlight": ["United States"], "pins": [{"lon": -86.28, "lat": 30.99, "label": "Britton Hill ~105 m"}], "tag": "Source: Wikipedia (Britton Hill, USGS GNIS)",
+    "say": "Florida is a great geography trivia moment. It has the lowest highest point of any U.S. state: Britton Hill, just 105 metres high. That means nearly all of Florida would vanish, but a sliver of high ground in the northern panhandle would technically stay dry."},
+   {"type": "map", "title": "WEST COAST", "box": [-126, -114, 31, 40], "sea": 65, "pins": [{"lon": -122.42, "lat": 37.77, "label": "San Francisco"}, {"lon": -117.16, "lat": 32.72, "label": "San Diego"}], "tag": "Source: National Geographic",
+    "say": "On the West Coast, San Francisco's hills would become islands, and San Diego would be gone."},
+   {"type": "map", "title": "SOUTH AMERICA", "box": [-72, -42, -40, -16], "sea": 65, "pins": [{"lon": -58.38, "lat": -34.6, "label": "Buenos Aires", "dx": -24}, {"lon": -56.16, "lat": -34.9, "label": "Montevideo", "dy": 36}, {"lon": -57.58, "lat": -25.26, "label": "Asunción"}], "tag": "Source: National Geographic",
+    "say": "In South America, Buenos Aires and coastal Uruguay would be wiped out, and so would most of Paraguay."},
+   {"type": "map", "title": "AUSTRALIA", "box": [108, 158, -45, -8], "sea": 65, "big": "85% LIVE WITHIN 50 km OF THE COAST", "tag": "Sources: National Geographic · ABS 2001 Census",
+    "say": "And Australia gets a strange new feature: a brand-new inland sea. It would also lose much of the narrow coastal strip where more than four in five Australians live."}
+  ]},
+  {"name": "So what would be left?", "scenes": [
+   {"type": "map", "title": "WHAT SURVIVES?", "sea": 65, "tag": "Simplified model",
+    "say": "So, after all that ice is gone, what remains? The answer is: still most of the land on Earth. The mountains, high plateaus and continental interiors stay dry. Those coastlines are just redrawn, sometimes by hundreds of kilometres."},
+   {"type": "map", "title": "THE BIGGEST LOSERS: LOW PLACES", "sea": 65, "pins": [{"lon": 90.4, "lat": 23.8, "label": "Deltas"}, {"lon": 73.5, "lat": 3.2, "label": "Atolls"}, {"lon": -90, "lat": 30, "label": "Coastal plains"}], "tag": "Simplified model",
+    "say": "The biggest losers are low places: atoll nations, river deltas and flat coastal plains. And that's where many of the world's big cities happen to be."},
+   {"type": "card", "title": "A VERY DIFFERENT PLANET", "big": "~27°C vs ~14°C", "size": 170, "small": "A world warm enough to melt all the ice (National Geographic estimate)\nvs. the late 20th century", "tag": "Source: National Geographic",
+    "say": "The planet itself would be very different too. A world warm enough to melt all the ice might average around 27 degrees Celsius, according to National Geographic's estimate, compared with about 14 degrees in the late 20th century."},
+   {"type": "card", "title": "ONE IMPORTANT CAVEAT", "big": "A ROUGH GUIDE", "size": 150, "small": "These maps simply raise the sea by about 65 m everywhere.\nReal land rises or sinks, and the ocean doesn't rise evenly.", "tag": "",
+    "say": "One important caveat: these maps simply raise the sea by about 65 metres everywhere. The real world would be more complicated, with land rising or sinking and the ocean not rising evenly. Think of them as a rough guide, not a precise forecast for your street."}
+  ]},
+  {"name": "Reality check: what scientists expect by 2100", "scenes": [
+   {"type": "card", "title": "REALITY CHECK", "big": "NOT 65 m BY 2100", "size": 160, "small": "Realistic projections: tens of centimetres to about a metre", "tag": "",
+    "say": "Now let's come back to the real world, because this part matters. Nobody is predicting 65 metres by 2100. Realistic projections for this century are tens of centimetres to about a metre."},
+   {"type": "bars", "title": "IPCC: LIKELY RISE BY 2100 (vs 1995–2014)", "max": 2.2, "anim_s": 4, "tag": "Source: IPCC AR6 WGI, Summary for Policymakers",
+    "rows": [["Very low emissions", 0.55, "0.28–0.55 m"], ["Very high emissions", 1.01, "0.63–1.01 m"], ["Cannot be ruled out", 2.0, "~2 m (low confidence)", [120, 130, 160]]],
+    "say": "The IPCC's latest assessment projects that global sea level will likely rise by about 28 to 55 centimetres by 2100 under very low emissions, and by about 63 centimetres to just over one metre under very high emissions, compared with 1995 to 2014. Under very high emissions, a rise approaching 2 metres by 2100 cannot be ruled out, but scientists have low confidence in it."},
+   {"type": "card", "title": "UNITED STATES", "big": "+10–12 INCHES BY 2050", "size": 140, "small": "on average along the US coast · about as much as 1920–2020\nModerate coastal flooding more than 10 times as often", "tag": "Source: NOAA 2022 Sea Level Rise Technical Report",
+    "say": "That's still a big deal for low-lying places. In the United States, for example, NOAA projects 10 to 12 inches of rise on average along the coast by 2050, about as much as the country saw over the previous 100 years, from 1920 to 2020. And moderate coastal flooding would happen more than ten times as often."},
+   {"type": "card", "title": "THOUSANDS OF YEARS vs THIS CENTURY", "big": "65 m  vs  < 1 m", "size": 170, "small": "The full melt is a story of thousands of years", "tag": "",
+    "say": "The full all ice melted world is a story of thousands of years. What happens this century is a much smaller number, but it still matters for millions of people living on the coast."}
+  ]},
+  {"name": "Your turn", "scenes": [
+   {"type": "card", "title": "YOUR TURN", "big": "COMMENT BELOW", "size": 140, "small": "Most surprising survivor? Biggest loss?\nSubscribe for a new geography quiz every day", "tag": "",
+    "say": "So, which country do you think would be the most surprising survivor, and which loss would hit hardest? Tell us in the comments. If you love seeing the world redrawn with real maps, subscribe to Borderline Quiz and test your geography with us every week.", "gap": 1.5}
+  ]}
+ ]
+}

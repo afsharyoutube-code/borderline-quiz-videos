@@ -1,0 +1,38 @@
+{
+ "id": "s24_capital_c",
+ "type": "capital",
+ "facts": "last",
+ "hook": "Name the capital!",
+ "hookBig": "CAPITALS",
+ "hookSmall": "PICK THE RIGHT ONE",
+ "items": [
+  {
+   "iso2": "es",
+   "options": [
+    "Barcelona",
+    "Madrid",
+    "Seville",
+    "Valencia"
+   ]
+  },
+  {
+   "iso2": "ma",
+   "options": [
+    "Casablanca",
+    "Marrakesh",
+    "Rabat",
+    "Fes"
+   ]
+  },
+  {
+   "iso2": "sa",
+   "options": [
+    "Jeddah",
+    "Riyadh",
+    "Mecca",
+    "Dammam"
+   ]
+  }
+ ],
+ "outro": "How many did you get? Comment your score!"
+}

@@ -1,0 +1,55 @@
+{
+ "id": "s24_capital",
+ "type": "capital",
+ "facts": "last",
+ "hook": "Name the capital. The biggest city is not always the answer.",
+ "hookBig": "CAPITALS",
+ "hookSmall": "PICK THE RIGHT ONE",
+ "items": [
+  {
+   "iso2": "es",
+   "options": [
+    "Barcelona",
+    "Madrid",
+    "Seville",
+    "Valencia"
+   ]
+  },
+  {
+   "iso2": "ma",
+   "options": [
+    "Casablanca",
+    "Marrakesh",
+    "Rabat",
+    "Fes"
+   ]
+  },
+  {
+   "iso2": "sa",
+   "options": [
+    "Jeddah",
+    "Riyadh",
+    "Mecca",
+    "Dammam"
+   ]
+  },
+  {
+   "iso2": "ae",
+   "options": [
+    "Dubai",
+    "Sharjah",
+    "Al Ain",
+    "Abu Dhabi"
+   ]
+  },
+  {
+   "iso2": "om",
+   "options": [
+    "Salalah",
+    "Muscat",
+    "Sohar",
+    "Nizwa"
+   ]
+  }
+ ]
+}
