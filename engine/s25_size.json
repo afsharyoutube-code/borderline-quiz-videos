@@ -1,0 +1,30 @@
+{
+ "id": "s25_size",
+ "type": "size",
+ "facts": "last",
+ "hook": "Venezuela or Tanzania? Peru or South Africa? Pick the bigger country before the reveal.",
+ "hookBig": "BIGGER?",
+ "hookSmall": "REAL SIZE QUIZ",
+ "items": [
+  {
+   "a": "ve",
+   "b": "tz"
+  },
+  {
+   "a": "co",
+   "b": "et"
+  },
+  {
+   "a": "pe",
+   "b": "za"
+  },
+  {
+   "a": "ly",
+   "b": "ir"
+  },
+  {
+   "a": "eg",
+   "b": "bo"
+  }
+ ]
+}

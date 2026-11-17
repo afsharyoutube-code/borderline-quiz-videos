@@ -1,0 +1,25 @@
+{
+ "id": "s26_flag",
+ "type": "flag",
+ "facts": "last",
+ "hook": "Five African flags. Name each one in three seconds.",
+ "hookBig": "AFRICA",
+ "hookSmall": "NAME ALL 5 FLAGS",
+ "items": [
+  {
+   "iso2": "ng"
+  },
+  {
+   "iso2": "et"
+  },
+  {
+   "iso2": "sn"
+  },
+  {
+   "iso2": "bw"
+  },
+  {
+   "iso2": "rw"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "id": "s25_size_c",
+ "type": "size",
+ "facts": "last",
+ "hook": "Which one is bigger?",
+ "hookBig": "BIGGER?",
+ "hookSmall": "REAL SIZE QUIZ",
+ "items": [
+  {
+   "a": "ve",
+   "b": "tz"
+  },
+  {
+   "a": "co",
+   "b": "et"
+  },
+  {
+   "a": "pe",
+   "b": "za"
+  }
+ ],
+ "outro": "How many did you get? Comment your score!"
+}

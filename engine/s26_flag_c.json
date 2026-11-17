@@ -1,0 +1,20 @@
+{
+ "id": "s26_flag_c",
+ "type": "flag",
+ "facts": "last",
+ "hook": "Name these African flags!",
+ "hookBig": "AFRICA",
+ "hookSmall": "NAME ALL 5 FLAGS",
+ "items": [
+  {
+   "iso2": "ng"
+  },
+  {
+   "iso2": "et"
+  },
+  {
+   "iso2": "sn"
+  }
+ ],
+ "outro": "How many did you get? Comment your score!"
+}

@@ -1,0 +1,35 @@
+{
+ "id": "s28_emoji_c",
+ "type": "emoji",
+ "facts": "last",
+ "hook": "Guess the country from 3 emojis!",
+ "hookBig": "PART 4",
+ "hookSmall": "EMOJI COUNTRY QUIZ",
+ "items": [
+  {
+   "iso2": "es",
+   "emojis": [
+    "🥘",
+    "💃",
+    "☀️"
+   ]
+  },
+  {
+   "iso2": "gb",
+   "emojis": [
+    "☕",
+    "💂",
+    "🌧️"
+   ]
+  },
+  {
+   "iso2": "th",
+   "emojis": [
+    "🐘",
+    "🛺",
+    "🍜"
+   ]
+  }
+ ],
+ "outro": "How many did you get? Comment your score!"
+}

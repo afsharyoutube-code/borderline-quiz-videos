@@ -1,0 +1,38 @@
+{
+ "id": "s27_capital_c",
+ "type": "capital",
+ "facts": "last",
+ "hook": "Name the capital!",
+ "hookBig": "TRAP!",
+ "hookSmall": "NAME THE CAPITAL",
+ "items": [
+  {
+   "iso2": "it",
+   "options": [
+    "Milan",
+    "Rome",
+    "Naples",
+    "Turin"
+   ]
+  },
+  {
+   "iso2": "ar",
+   "options": [
+    "Córdoba",
+    "Rosario",
+    "Buenos Aires",
+    "Mendoza"
+   ]
+  },
+  {
+   "iso2": "ke",
+   "options": [
+    "Mombasa",
+    "Nairobi",
+    "Kisumu",
+    "Nakuru"
+   ]
+  }
+ ],
+ "outro": "How many did you get? Comment your score!"
+}

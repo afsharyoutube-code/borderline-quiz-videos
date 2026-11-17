@@ -1,0 +1,51 @@
+{
+ "id": "s28_emoji",
+ "type": "emoji",
+ "facts": "last",
+ "hook": "Part four! Three emojis, one country. How many can you get?",
+ "hookBig": "PART 4",
+ "hookSmall": "EMOJI COUNTRY QUIZ",
+ "items": [
+  {
+   "iso2": "es",
+   "emojis": [
+    "🥘",
+    "💃",
+    "☀️"
+   ]
+  },
+  {
+   "iso2": "gb",
+   "emojis": [
+    "☕",
+    "💂",
+    "🌧️"
+   ]
+  },
+  {
+   "iso2": "th",
+   "emojis": [
+    "🐘",
+    "🛺",
+    "🍜"
+   ]
+  },
+  {
+   "iso2": "nz",
+   "emojis": [
+    "🥝",
+    "🐑",
+    "🏉"
+   ]
+  },
+  {
+   "iso2": "tr",
+   "emojis": [
+    "🧿",
+    "☕",
+    "🎈"
+   ]
+  }
+ ],
+ "outro": "How many did you get? Comment your score, and follow for part five!"
+}

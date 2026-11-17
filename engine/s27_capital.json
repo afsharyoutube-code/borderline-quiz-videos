@@ -1,0 +1,55 @@
+{
+ "id": "s27_capital",
+ "type": "capital",
+ "facts": "last",
+ "hook": "Name the capital. Careful, the famous city is a trap.",
+ "hookBig": "TRAP!",
+ "hookSmall": "NAME THE CAPITAL",
+ "items": [
+  {
+   "iso2": "it",
+   "options": [
+    "Milan",
+    "Rome",
+    "Naples",
+    "Turin"
+   ]
+  },
+  {
+   "iso2": "ar",
+   "options": [
+    "Córdoba",
+    "Rosario",
+    "Buenos Aires",
+    "Mendoza"
+   ]
+  },
+  {
+   "iso2": "ke",
+   "options": [
+    "Mombasa",
+    "Nairobi",
+    "Kisumu",
+    "Nakuru"
+   ]
+  },
+  {
+   "iso2": "cm",
+   "options": [
+    "Douala",
+    "Garoua",
+    "Yaoundé",
+    "Bamenda"
+   ]
+  },
+  {
+   "iso2": "bz",
+   "options": [
+    "Belize City",
+    "Belmopan",
+    "San Ignacio",
+    "Orange Walk"
+   ]
+  }
+ ]
+}
