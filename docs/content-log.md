@@ -41,7 +41,17 @@
 - FB photo quizzes 18 Nov: 09:00 dk c2cabe09-cac8-4e80-91e7-36ee3d42a6fc rev 07599571 · 11:30 co 89c104aa-82b0-4d53-a415-a3f5a1d2ac13 rev 316f064f · 16:30 gr 131fe030-5e3d-42b8-b012-d2be731126b5 rev 99bd0959 · 21:00 pe a03660ff-a193-4cad-9a2b-92b7a3786139 rev 4135dfda · 22:00 fi 61dc6021-d786-43af-8484-b9b7babb7d24 rev e468e34f
 - Answers for the 18 Nov FB quizzes (put in 19 Nov captions): Denmark, Colombia, Greece, Peru, Finland.
 
+## PENDING DRAFTS (Thu 19 Nov Shorts) — drafted 17 Nov, waiting for اوکی
+- s25_size · ve-tz co-et pe-za ly-ir eg-bo · YT 13:00 · IG 13:30 · FB Reel 14:00 · postId cdc2499c-a0de-4fc2-8440-af2e82bf11b4 rev 3767fa3f-39a977d0-b8b8431b
+- s26_flag · ng et sn bw rw · YT 15:00 · IG 15:30 · TikTok 20 Nov 19:30 · postId 7c9d7f4c-5df0-49df-a30d-28ee69299f07 rev 06deab23-2bbdbec9-ba4511e1
+- s27_capital · it ar ke cm bz · YT 18:00 · IG 18:30 · FB Reel 19:00 · postId 7935d1a8-fe52-4433-a109-b5cd12541da1 rev 36092e87-99261e5b-b5a300f3
+- s28_emoji part 4 · es gb th nz tr · YT 20:00 · IG 20:30 · TikTok 20 Nov 21:30 · postId 12b89d19-0825-43ee-a893-fe4ecd945d7b rev 2fd9c2f6-38e391bf-9d4e40f8
+- FB photo quizzes 19 Nov: 09:00 ca 280650ce-f68b-460c-83fb-9f1aadad8fb5 rev 343a6768 · 11:30 jp 785f483c-be33-478f-827a-844003c3fd86 rev de689f7f · 15:30 it d2ee88d1-ef97-4964-b050-cbb8fcc172d9 rev e4da5b31 · 21:00 ng 63c86421-c433-41d4-b002-eeee518d1cdb rev c9c2b7c2 · 22:00 ua 6d2b8339-b881-4ddd-970c-1a28c8e61f49 rev f932cbf8
+- Answers for 19 Nov FB quizzes (put in 20 Nov captions): Canada, Japan, Italy, Nigeria, Ukraine.
+- NOTE: Tue 17 Nov drafts passed their times without اوکی — after اوکی, move them to the next free slots (draft_update publishAt) before publishing.
+
 ## Stats log
+- 2026-11-17 (Windsor): 14 subs · 11,815 lifetime views · 18 videos.
 - 2026-11-13 08:00 UTC: 2 subscribers · 90-day Shorts views not available (vidIQ credits 5/150 until 12 Dec).
 - 2026-11-14 07:45 UTC (Windsor): 4 subscribers · 2,821 lifetime views · 6 public videos. Per-video analytics not yet available (lag).
 - 2026-11-15 (Sunday board): YouTube 7 subs / 6,718 lifetime views; best s02_flag (840 views, 66% avg viewed). IG 7,425 views, 3 followers. Size/capital/flag win; shapes dropped.
