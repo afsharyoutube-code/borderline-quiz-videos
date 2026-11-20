@@ -1,0 +1,57 @@
+{
+ "id": "W01s3_everest",
+ "brand": "WHAT IF EARTH",
+ "voice": "am_michael",
+ "chapters": [
+  {
+   "name": "Deeper than Everest",
+   "label": "The deepest point on Earth",
+   "scenes": [
+    {
+     "type": "card",
+     "title": "DROP EVEREST IN THE OCEAN",
+     "big": "STILL UNDERWATER",
+     "size": 110,
+     "small": "Everest: 8,849 m\nChallenger Deep: 10,935 m",
+     "tag": "Sources: NOAA · Science Focus",
+     "say": "If you dropped Mount Everest into the deepest part of the ocean, its peak would still be more than two kilometres under water."
+    },
+    {
+     "type": "map",
+     "title": "THE LAST WATER ON EARTH",
+     "box": [
+      132,
+      152,
+      0,
+      30
+     ],
+     "sea": [
+      0,
+      -6000
+     ],
+     "anim_s": 8,
+     "pins": [
+      {
+       "lon": 142.2,
+       "lat": 11.35,
+       "label": "Challenger Deep",
+       "dx": -24
+      }
+     ],
+     "tag": "Source: NOAA",
+     "say": "It's called the Challenger Deep, in the Mariana Trench. NOAA puts it at about 10,935 metres deep. Drain the ocean six kilometres, and this is where the last water would be."
+    },
+    {
+     "type": "card",
+     "title": "WHAT IF?",
+     "big": "WHAT NEXT?",
+     "size": 140,
+     "small": "Full video on our channel:\nWhat if the oceans drained?",
+     "tag": "",
+     "say": "See the whole ocean drain, level by level, in the full video on our channel.",
+     "gap": 1.0
+    }
+   ]
+  }
+ ]
+}

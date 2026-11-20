@@ -1,0 +1,304 @@
+{
+ "id": "W01_oceans_drained",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "chapters": [
+  {
+   "name": "Intro",
+   "label": "What if the oceans drained?",
+   "scenes": [
+    {
+     "type": "map",
+     "title": "WHAT IF THE OCEANS DRAINED?",
+     "sea": [
+      0,
+      -200
+     ],
+     "anim_s": 12,
+     "tag": "Thought experiment",
+     "say": "Picture the world's oceans, and now start pulling the plug. Ten metres. Fifty. A hundred. Coastlines race outward, and lands that have been hidden for thousands of years rise back into the light."
+    },
+    {
+     "type": "map",
+     "title": "WHAT IS HIDING DOWN THERE?",
+     "sea": -200,
+     "tag": "Thought experiment",
+     "say": "So what would we find if the sea kept dropping? Lost land bridges, giant underwater mountains, and a canyon deeper than Mount Everest is tall. Let's drain the planet, one level at a time."
+    }
+   ]
+  },
+  {
+   "name": "Minus 130 metres: the Ice Age world",
+   "scenes": [
+    {
+     "type": "card",
+     "title": "THIS HAPPENED BEFORE",
+     "big": "~130 m LOWER",
+     "size": 170,
+     "small": "Average global sea level at the peak of the last ice age\n(about 26,500 to 19,000 years ago)",
+     "tag": "Source: UC Santa Cruz / PNAS 2023",
+     "say": "The first stop isn't even imaginary. At the peak of the last ice age, about 26,500 to 19,000 years ago, so much water was locked up in ice sheets that average global sea level was about 130 metres lower than today."
+    },
+    {
+     "type": "map",
+     "title": "BERINGIA",
+     "box": [
+      155,
+      215,
+      50,
+      75
+     ],
+     "sea": [
+      0,
+      -130
+     ],
+     "anim_s": 8,
+     "pins": [
+      {
+       "lon": 191,
+       "lat": 65.8,
+       "label": "Land bridge: Siberia to Alaska",
+       "dx": -24
+      }
+     ],
+     "tag": "Source: UC Santa Cruz / PNAS 2023",
+     "say": "Here is what that looks like between Siberia and Alaska. The Bering Strait dries out, and a wide land bridge called Beringia appears. Scientists say it supported herds of horses and mammoths, and it is how many researchers think people first walked into the Americas."
+    },
+    {
+     "type": "map",
+     "title": "DOGGERLAND",
+     "box": [
+      -10,
+      12,
+      48,
+      61
+     ],
+     "sea": [
+      0,
+      -130
+     ],
+     "anim_s": 8,
+     "pins": [
+      {
+       "lon": 3.0,
+       "lat": 54.5,
+       "label": "Doggerland"
+      }
+     ],
+     "tag": "Simplified map",
+     "say": "Now look at the North Sea. With the water this low, Britain is no longer an island. It joins mainland Europe through a lost landscape that archaeologists call Doggerland, land where people once lived and hunted before the rising sea swallowed it."
+    },
+    {
+     "type": "map",
+     "title": "SUNDALAND",
+     "box": [
+      90,
+      125,
+      -12,
+      22
+     ],
+     "sea": [
+      0,
+      -130
+     ],
+     "anim_s": 8,
+     "pins": [
+      {
+       "lon": 108,
+       "lat": 3,
+       "label": "Sundaland"
+      }
+     ],
+     "tag": "Simplified map",
+     "say": "And in Southeast Asia, the shallow shelf between Malaysia, Sumatra, Java and Borneo turns into one huge exposed region known as Sundaland. Many of today's islands were once its hills."
+    }
+   ]
+  },
+  {
+   "name": "Minus 1,000 metres: the shelves are gone",
+   "scenes": [
+    {
+     "type": "map",
+     "title": "MINUS 1,000 METRES",
+     "sea": [
+      -130,
+      -1000
+     ],
+     "anim_s": 10,
+     "tag": "Simplified map",
+     "say": "Let's keep draining. At one thousand metres down, the continental shelves, the shallow aprons around every continent, are completely exposed. Coastlines move outward by hundreds of kilometres in places, and new land connects islands we normally think of as separate."
+    },
+    {
+     "type": "map",
+     "title": "EUROPE AT −1,000 m",
+     "box": [
+      -25,
+      45,
+      25,
+      65
+     ],
+     "sea": -1000,
+     "tag": "Simplified map",
+     "say": "On this map, Britain and Ireland are fully joined to Europe, and the Mediterranean starts breaking up into separate deep basins. The ocean is still there, but it is getting smaller and stranger."
+    }
+   ]
+  },
+  {
+   "name": "Minus 3,682 metres: the average ocean",
+   "scenes": [
+    {
+     "type": "card",
+     "title": "THE AVERAGE OCEAN",
+     "big": "3,682 m DEEP",
+     "size": 180,
+     "small": "Average depth of the ocean (NOAA)",
+     "tag": "Source: NOAA",
+     "say": "Here is a number that surprises most people. According to NOAA, the average depth of the ocean is 3,682 metres. That's more than three and a half kilometres of water, on average, everywhere."
+    },
+    {
+     "type": "map",
+     "title": "MINUS 3,682 METRES",
+     "sea": [
+      -1000,
+      -3682
+     ],
+     "anim_s": 10,
+     "tag": "Simplified map",
+     "say": "So what happens when we drain to that average depth? Huge parts of the seafloor rise out of the water. And now you can see something that is normally invisible: long underwater mountain ranges snaking through the middle of the oceans."
+    },
+    {
+     "type": "map",
+     "title": "THE HIDDEN MOUNTAINS",
+     "box": [
+      -60,
+      10,
+      -40,
+      50
+     ],
+     "sea": -3682,
+     "tag": "Simplified map",
+     "say": "Look down the middle of the Atlantic. That raised line is a mid-ocean ridge, a chain of underwater mountains running between the continents. With the water gone, it would be one of the longest mountain ranges anyone has ever seen."
+    }
+   ]
+  },
+  {
+   "name": "Minus 6,000 metres: only the trenches remain",
+   "scenes": [
+    {
+     "type": "map",
+     "title": "MINUS 6,000 METRES",
+     "sea": [
+      -3682,
+      -6000
+     ],
+     "anim_s": 10,
+     "tag": "Simplified map",
+     "say": "Keep going to six thousand metres. On this map, almost all of the ocean is gone. What remains are deep basins and narrow trenches, long scars in the seafloor where the deepest water hides."
+    },
+    {
+     "type": "map",
+     "title": "THE LAST WATER",
+     "box": [
+      120,
+      170,
+      0,
+      45
+     ],
+     "sea": -6000,
+     "pins": [
+      {
+       "lon": 142.2,
+       "lat": 11.35,
+       "label": "Mariana Trench"
+      }
+     ],
+     "tag": "Simplified map",
+     "say": "The last water on Earth would sit in places like the Mariana Trench in the western Pacific. And that trench hides the deepest point we know of."
+    }
+   ]
+  },
+  {
+   "name": "Deeper than Everest",
+   "scenes": [
+    {
+     "type": "card",
+     "title": "CHALLENGER DEEP",
+     "big": "10,935 m",
+     "size": 220,
+     "small": "Deepest known point in the ocean (NOAA)",
+     "tag": "Source: NOAA",
+     "say": "It's called the Challenger Deep, at the southern end of the Mariana Trench. NOAA puts its depth at about 10,935 metres."
+    },
+    {
+     "type": "bars",
+     "title": "DEPTH VS HEIGHT",
+     "max": 11000,
+     "anim_s": 4,
+     "tag": "Sources: NOAA · Science Focus",
+     "rows": [
+      [
+       "Average ocean",
+       3682,
+       "3,682 m"
+      ],
+      [
+       "Mount Everest",
+       8849,
+       "8,849 m"
+      ],
+      [
+       "Challenger Deep",
+       10935,
+       "10,935 m",
+       [
+        255,
+        210,
+        63
+       ]
+      ]
+     ],
+     "say": "Mount Everest is 8,849 metres tall. That means if you dropped Everest into the Challenger Deep, its peak would still be more than two kilometres under water."
+    }
+   ]
+  },
+  {
+   "name": "Could this really happen?",
+   "scenes": [
+    {
+     "type": "card",
+     "title": "REALITY CHECK",
+     "big": "THOUGHT EXPERIMENT",
+     "size": 140,
+     "small": "The oceans are not going anywhere.\nOnly the first step, about 130 m lower, really happened, during the last ice age.",
+     "tag": "",
+     "say": "Of course, the oceans aren't going anywhere. Only our first step really happened, during the last ice age, when sea level was about 130 metres lower. Everything after that is a thought experiment to show what is hidden under the waves."
+    },
+    {
+     "type": "card",
+     "title": "ONE IMPORTANT CAVEAT",
+     "big": "A ROUGH GUIDE",
+     "size": 150,
+     "small": "These maps lower the sea evenly on low-resolution elevation data.\nReal ice-age coastlines also depended on land rising and sinking.",
+     "tag": "",
+     "say": "And one caveat: these maps simply lower the sea evenly on low resolution elevation data. Real ice age coastlines also depended on land slowly rising and sinking, so treat them as a rough guide."
+    }
+   ]
+  },
+  {
+   "name": "Your turn",
+   "scenes": [
+    {
+     "type": "card",
+     "title": "YOUR TURN",
+     "big": "WHAT NEXT?",
+     "size": 170,
+     "small": "Which 'what if' should we test next?\nTell us in the comments, and subscribe for more.",
+     "tag": "",
+     "say": "So, which part surprised you most? And which what if should we test next? Tell us in the comments, and subscribe so you don't miss the next one.",
+     "gap": 1.5
+    }
+   ]
+  }
+ ],
+ "brand": "WHAT IF EARTH"
+}

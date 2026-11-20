@@ -9,7 +9,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 from scipy.ndimage import map_coordinates
 
-W, H, FPS = 1920, 1080, 24
+W, H, FPS = (1080, 1920, 30) if os.environ.get('WI_V') else (1920, 1080, 24)
 NAVY = (12, 22, 46); ORANGE = (255, 106, 19); CREAM = (250, 244, 230); YEL = (255, 210, 63)
 F = lambda p, s: ImageFont.truetype(p, s)
 BEBAS, M900, M800, LG = '/tmp/bebas.ttf', '/tmp/m900.ttf', '/tmp/m800.ttf', '/tmp/lg.ttf'
@@ -25,7 +25,7 @@ GEO = json.load(open('/root/historical-basemaps/geojson/world_2010.geojson'))
 
 def sample(box, w, h):
     lo0, lo1, la0, la1 = box
-    lons = np.linspace(lo0, lo1, w); lats = np.linspace(la1, la0, h)
+    lons = (np.linspace(lo0, lo1, w) + 180) % 360 - 180; lats = np.linspace(la1, la0, h)
     gx = (lons - LONr[0]) / (LONr[1] - LONr[0]); gy = (lats - LAT[0]) / (LAT[1] - LAT[0])
     GX, GY = np.meshgrid(gx, gy)
     return map_coordinates(Z, [GY, GX], order=1, mode='nearest')
@@ -43,6 +43,11 @@ def colorize(z, sea, shade):
         land = np.where(m[..., None], np.array(ca) * (1 - t) + np.array(cb) * t, land)
     land = land * shade[..., None]
     out = np.where(ocean[..., None], out, land)
+    if sea < 0:
+        ex = ocean & (z > sea)
+        dd = np.clip(-z / 6000, 0, 1)[..., None]
+        sand = np.array([196, 170, 120]) * (1 - dd) + np.array([120, 92, 70]) * dd
+        out = np.where(ex[..., None], sand * shade[..., None], out)
     if sea > 0:
         fl = (~ocean) & (z <= sea)
         out = np.where(fl[..., None], np.array([46, 150, 222]) * 0.85 + land * 0.15, out)
@@ -78,16 +83,17 @@ def text_box(dr, xy, txt, font, fg=NAVY, bg=CREAM, pad=12, anchor='la'):
     dr.rounded_rectangle((b[0] - pad, b[1] - pad, b[2] + pad, b[3] + pad), 10, fill=bg)
     dr.text(xy, txt, font=font, fill=fg, anchor=anchor)
 
+BRAND = 'BORDERLINE QUIZ'
 def chrome(img, sc, chapter):
     dr = ImageDraw.Draw(img, 'RGBA')
     dr.rectangle((0, 0, W, 150), fill=NAVY + (235,))
-    if chapter: dr.text((60, 30), chapter.upper(), font=F(M800, 30), fill=ORANGE)
-    if sc.get('title'): dr.text((60, 68), sc['title'], font=F(BEBAS, 72), fill=CREAM)
-    dr.text((W - 60, 40), 'BORDERLINE QUIZ', font=F(BEBAS, 44), fill=CREAM, anchor='ra')
+    if chapter: dr.text((60, 22), chapter.upper(), font=F(M800, 34 if W < H else 30), fill=ORANGE)
+    if sc.get('title'): dr.text((60, 64), sc['title'], font=F(BEBAS, 80 if W < H else 72), fill=CREAM)
+    dr.text((W - 60, 24 if W < H else 40), BRAND, font=F(BEBAS, 36 if W < H else 44), fill=CREAM, anchor='ra')
     if sc.get('tag'):
-        text_box(dr, (60, H - 50), sc['tag'], F(M800, 24), fg=CREAM, bg=(12, 22, 46, 220), anchor='ls')
+        text_box(dr, (60, H - (110 if W < H else 50)), sc['tag'], F(M800, 30 if W < H else 24), fg=CREAM, bg=(12, 22, 46, 220), anchor='ls')
     if sc.get('note', True) and sc['type'] == 'map':
-        dr.text((W - 60, H - 50), 'Simplified: sea raised evenly · elevation NOAA ETOPO', font=F(M800, 20), fill=(255, 255, 255, 190), anchor='rs')
+        dr.text((W - 60, H - 50), sc.get('notetext', 'Simplified: sea level changed evenly · elevation NOAA ETOPO'), font=F(M800, 20), fill=(255, 255, 255, 190), anchor='rs')
 
 def map_frame(sc, sea, cache):
     box = tuple(sc.get('box', [-180, 180, -58, 84]))
@@ -106,11 +112,12 @@ def map_frame(sc, sea, cache):
         x, y = P(p['lon'], p['lat'])
         dr.ellipse((x - 11, y - 11, x + 11, y + 11), fill=ORANGE, outline=CREAM, width=4)
         dx = p.get('dx', 24); anc = 'lm' if dx >= 0 else 'rm'
-        text_box(dr, (x + dx, y + p.get('dy', 0)), p['label'], F(M800, 30), anchor=anc)
+        text_box(dr, (x + dx, y + p.get('dy', 0)), p['label'], F(M800, 48 if W < H else 30), anchor=anc)
     if sc.get('big'):
         text_box(dr, (W // 2, H - 130), sc['big'], F(BEBAS, 84), fg=NAVY, bg=YEL, pad=18, anchor='mm')
-    if sc.get('counter', True) and sea > 0:
-        text_box(dr, (W - 60, 210), f'SEA LEVEL +{sea:.0f} m', F(BEBAS, 64), fg=CREAM, bg=(46, 150, 222), pad=16, anchor='ra')
+    if sc.get('counter', True) and sea != 0:
+        lab = f'SEA LEVEL +{sea:.0f} m' if sea > 0 else f'SEA LEVEL {sea:,.0f} m'.replace('-', '\u2212')
+        text_box(dr, (W - 60, 210), lab, F(BEBAS, 64), fg=CREAM, bg=(46, 150, 222) if sea > 0 else (200, 120, 40), pad=16, anchor='ra')
     return img
 
 def bars_frame(sc, t):
@@ -120,7 +127,7 @@ def bars_frame(sc, t):
     for i, r in enumerate(rows):
         y = top + i * gap; bh = min(90, gap * 0.6)
         g = min(1, max(0, t * 1.6 - i * 0.25)); g = 1 - (1 - g) ** 3
-        bw = (W - 1180) * (r[1] / mx) * g
+        bw = (W - (1180 if W > H else 700)) * (r[1] / mx) * g
         dr.text((80, y + bh / 2), r[0], font=F(M800, 38), fill=CREAM, anchor='lm')
         dr.rounded_rectangle((560, y, 560 + max(bw, 6), y + bh), 12, fill=tuple(r[3]) if len(r) > 3 else ORANGE)
         dr.text((580 + bw, y + bh / 2), r[2], font=F(BEBAS, 60), fill=YEL, anchor='lm')
@@ -131,7 +138,7 @@ def card_frame(sc, t):
     dr.text((W // 2, H // 2 - 40), sc['big'], font=F(BEBAS, sc.get('size', 150)), fill=YEL, anchor='mm')
     if sc.get('small'):
         for j, line in enumerate(sc['small'].split('\n')):
-            dr.text((W // 2, H // 2 + 90 + j * 56), line, font=F(M800, 42), fill=CREAM, anchor='mm')
+            dr.text((W // 2, H // 2 + 90 + j * 56), line, font=F(M800, 50 if W < H else 42), fill=CREAM, anchor='mm')
     return img
 
 def timeline_frame(sc, t):
@@ -164,7 +171,8 @@ def animated(sc):
     return (sc['type'] == 'map' and isinstance(sc.get('sea'), list)) or sc['type'] in ('bars', 'timeline')
 
 def main():
-    spec = json.load(open(sys.argv[1])); out = sys.argv[2]
+    global BRAND
+    spec = json.load(open(sys.argv[1])); out = sys.argv[2]; BRAND = spec.get('brand', BRAND)
     tmp = tempfile.mkdtemp(prefix='wi_'); cache = {}
     if '--thumb' in sys.argv:
         th = spec['thumb']; img = map_frame(th, th['sea'], cache)

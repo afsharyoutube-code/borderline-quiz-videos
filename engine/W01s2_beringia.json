@@ -1,0 +1,57 @@
+{
+ "id": "W01s2_beringia",
+ "brand": "WHAT IF EARTH",
+ "voice": "am_michael",
+ "chapters": [
+  {
+   "name": "Land bridge",
+   "label": "Asia to America on foot",
+   "scenes": [
+    {
+     "type": "map",
+     "title": "WALK FROM ASIA TO AMERICA",
+     "box": [
+      180,
+      202,
+      52,
+      74
+     ],
+     "sea": [
+      0,
+      -130
+     ],
+     "anim_s": 7,
+     "pins": [
+      {
+       "lon": 191,
+       "lat": 65.8,
+       "label": "Beringia",
+       "dx": -24
+      }
+     ],
+     "tag": "Source: UC Santa Cruz / PNAS 2023",
+     "say": "You could once walk from Asia to America. Lower the sea by 130 metres and the Bering Strait dries out into a land bridge called Beringia."
+    },
+    {
+     "type": "card",
+     "title": "ICE AGE WORLD",
+     "big": "MAMMOTHS",
+     "size": 150,
+     "small": "Beringia supported herds of\nhorses and mammoths",
+     "tag": "Source: UC Santa Cruz",
+     "say": "Scientists say this land supported herds of horses and mammoths, during the last ice age, when sea level was about 130 metres lower than today."
+    },
+    {
+     "type": "card",
+     "title": "WHAT IF?",
+     "big": "WHAT NEXT?",
+     "size": 140,
+     "small": "Full video on our channel:\nWhat if the oceans drained?",
+     "tag": "",
+     "say": "Want to see what happens if we drain the whole ocean? Watch the full video on our channel.",
+     "gap": 1.0
+    }
+   ]
+  }
+ ]
+}

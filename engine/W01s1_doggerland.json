@@ -1,0 +1,57 @@
+{
+ "id": "W01s1_doggerland",
+ "brand": "WHAT IF EARTH",
+ "voice": "am_michael",
+ "chapters": [
+  {
+   "name": "Lost land",
+   "label": "What if the sea dropped 130 m?",
+   "scenes": [
+    {
+     "type": "map",
+     "title": "BRITAIN WASN'T AN ISLAND",
+     "box": [
+      -7,
+      11,
+      45,
+      63
+     ],
+     "sea": [
+      0,
+      -130
+     ],
+     "anim_s": 7,
+     "pins": [
+      {
+       "lon": 3,
+       "lat": 54.5,
+       "label": "Doggerland",
+       "dx": -24
+      }
+     ],
+     "tag": "Simplified map",
+     "say": "Watch Britain stop being an island. Drop the sea by 130 metres, and a lost land called Doggerland rises out of the North Sea, joining Britain to Europe."
+    },
+    {
+     "type": "card",
+     "title": "THIS REALLY HAPPENED",
+     "big": "~130 m LOWER",
+     "size": 130,
+     "small": "Average sea level at the peak\nof the last ice age",
+     "tag": "Source: UC Santa Cruz / PNAS 2023",
+     "say": "And this isn't fantasy. At the peak of the last ice age, average sea level was about 130 metres lower than today, and people lived on land that is now under the sea."
+    },
+    {
+     "type": "card",
+     "title": "WHAT IF?",
+     "big": "WHAT NEXT?",
+     "size": 140,
+     "small": "Full video on our channel:\nWhat if the oceans drained?",
+     "tag": "",
+     "say": "Want to see what happens if we keep draining? Watch the full video on our channel.",
+     "gap": 1.0
+    }
+   ]
+  }
+ ]
+}
