@@ -73,5 +73,5 @@ Next ids: Shorts continue at s25_..., long videos at L04_... (next long: Monday 
 
 ## Tiny Life Lessons (STYLE-V2 / LONG-TEMPLATE) — runs
 - 2026-11-26 (Thu) · L07 "The Ship Found Sailing With No One On Board" (Mary Celeste, 12:14, hand-drawn engine engine/tll, voice Kokoro af_heart, thumb A "NO ONE ABOARD"; spare thumb B "WHERE'D THEY GO?" in tll/L07 for 48h swap) · YT Sun 29 Nov 15:00Z · https://www.youtube.com/watch?v=WRrV80Se95k
-- Shorts: s1 YT 29 Nov 23:00Z https://www.youtube.com/watch?v=9W1VegeDO_g · s2 YT 30 Nov 22:00Z https://www.youtube.com/watch?v=z_1WIX8c7IU · s3 (3 Dec 22:00Z) + s4 (4 Dec 22:00Z) YT drafts publish 27 Nov 09:00Z (vidIQ free = 3 YT uploads/day) · IG Reels with cover frame +30 min after each.
+- Shorts: s1 YT 29 Nov 23:00Z https://www.youtube.com/watch?v=9W1VegeDO_g · s2 YT 30 Nov 22:00Z https://www.youtube.com/watch?v=z_1WIX8c7IU · s3 YT 3 Dec 22:00Z https://www.youtube.com/watch?v=i2uwJwEPDto · s4 YT 4 Dec 22:00Z https://www.youtube.com/watch?v=EiIHaDLAFW4 (uploaded 27 Nov ✅; vidIQ free = 3 YT uploads/day) · IG Reels with cover frame +30 min after each.
 - Next: Mon 30 Nov → long #2 (Tue/Wed 14–16 ET), tease = Flannan Isles lighthouse keepers (promised at end of L07); check L07 CTR (<5% → thumb B).
